@@ -9,7 +9,8 @@ function ctrl_c(){
 trap ctrl_c INT
 
 #User interaction
-read -p "\n***Hello, could you insert the IP?: " ip
+echo -e "\n***Hello, could you insert the IP?: "
+read ip
 
 echo -e "\nAll the ports opened will be displayed below. Be patient\n"
 
