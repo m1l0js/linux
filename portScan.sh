@@ -9,8 +9,7 @@ function get_out(){
 trap ctrl_c INT
 
 #User interaction
-echo -e "\n***Hello, could you insert the IP?: "
-read ip
+read -p "\n***Hello, could you insert the IP?: " ip
 
 echo -e "\nAll the ports opened will be displayed below. Be patient\n"
 
