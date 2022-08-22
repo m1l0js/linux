@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function get_out(){
+function ctrl_c(){
     echo -e "\n[!] You have pressed ctrl+c. Exiting ...\n"
     tput cnorm; exit 1
 }
